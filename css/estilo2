@@ -1,0 +1,8 @@
+
+
+body {
+  font: 100%/1.5 AvenirNext-Regular, Corbel, "Lucida Grande", "Trebuchet Ms", sans-serif;
+  color: #111; 
+  background-color: #fff;
+  margin: 2em 10%
+}

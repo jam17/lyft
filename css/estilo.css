@@ -1,0 +1,30 @@
+
+
+body{
+background-size:cover;
+background-image: url(../img/london22.jpg);
+background-repeat: no-repeat;
+}
+
+.btn1{
+
+	background-color: transparent;
+	font-color: white;
+	border:white solid 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 25%;
+}
+
+.btn2{
+	margin-left:-60%;
+}
+.botones{
+	margin-top: 70%;
+	margin-left: 30%;
+
+}
+
+img{
+	padding: 60%;
+}
