@@ -200,3 +200,9 @@ a:hover {
   color: #903;
   text-decoration: underline;
 }
+
+.prefijo{
+
+  border:1px solid black;
+  padding: 1px;
+}
