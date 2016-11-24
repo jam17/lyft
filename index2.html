@@ -1,45 +1,48 @@
 <html lang="es">
-    <head>
-        <meta charset="utf
-        -8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Lyft</title>
-        <link rel="icon"
-            type="image/ico"
-            href="img/favicon.ico">
-            <!-- Latest compiled and minified CSS -->
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-            <link rel="icon" type="image/ico" href="img/favicon.png">
-            
-            <link rel="stylesheet" type="text/css" href="css/estilo2.css">
-        </head>
-        <body>
-            <header>
-                
-                <h3 class="text-center">Sign Up</h3>
-                <p class="text-center">Join now for free ride credit</p>
-                <section>
-                    
-                    <label class="wrapper" for="states"></label>
-                    <div class="button dropdown">
-                        <select id="colorselector">
-                            <option value="1">Chile</option>
-                            <option value="2">Peru</option>
-                            <option value="3">Mexico</option>
-                        </select>
-                    </div>
-                    <div class="output">
-                        <div id="1" class="code"> <span class="prefijo">+569</span><input type="tel" placeholder> </div>
-                        <div id="2" class="code">
-                        <span class="prefijo">+519</span><input type="tel" placeholder=""></div>
-                        <div id="3" class="code"><span class="prefijo">+529</span><input type="tel" placeholder=""></div>
-                    </div>
-                </section>
-                <!-- /container -->
-                <script type='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery/min.js'></script>
-                <script type='text/javascript' src='js/main.js'></script>
-                <script type='text/javascript' src='js/donottouchthisfile.js'></script>
-                
-            </body>
-        </html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lyft</title>
+<link rel="icon" type="image/ico" href="images/favicon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,500" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+<div class="row">
+    <div class="col-xs-12">
+    <h3 class="text-center">Sign in</h3>
+        <a href="index.html" class="back"> <i class="material-icons medium">keyboard_arrow_left</i> </a> 
+        <p class="text-center">Join now for free ride credit</p>
+    </div>
+</div>
+</header>
+<ul id="paises">
+<li>
+    <a href="index.html">
+        <img class="banderas"src="img/chile.jpg">
+        <span>Chile</span>
+    </a>
+</li>
+<li>
+    <a href="index.html">
+        <img class="banderas" src="img/mexico.png">
+        <span>Mexico</span>
+    </a>
+</li>
+<li>
+    <a href="index.html">
+        <img class="banderas" src="img/peru.png">
+        <span>Peru</span>
+    </a>
+</li>
+</ul>
+<script src='js/jquery.min.js'></script>
+<script type="text/javascript" src="js/paises.js"></script>
+</body>
+</html>

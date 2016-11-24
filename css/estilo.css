@@ -1,6 +1,6 @@
 .logo{
-	width: 20%;
-	height: auto;
+    width: 20%;
+    height: auto;
 }
 
 .banner{
@@ -16,19 +16,79 @@ height: 100vh;
 
 .btn-1{
 
-	background-color: transparent;
-	font-color: white;
-	border:white solid 2px;
-	margin-top: 40%;
-	
+    background-color: transparent;
+    font-color: white;
+    border:white solid 2px;
+    margin-top: 140%;
+    
 }
 
 .btn-2:{
-	background-color: transparent;
-	margin-top: 40%;
-	
+    background-color: transparent;
+    margin-top: 140%;
+    
 }
 .botones:hover{
-	background-color: purple;
-	color:black;
+    background-color: purple;
+    color:black;
+}
+
+#paises li {
+            list-style: none;
+            display: block;
+            margin-bottom: 7px;
+        }
+        #paises li a {
+            border: 2px solid blue;
+            display: block;
+            text-decoration: none;
+        }
+        #paises li a:hover {
+            background-color: #fedcba;
+        }
+        #paises img {
+            display: inline-block;
+            width: 20px;
+        }
+
+
+#login, #pass, #segundo_tab {
+  display: none;
+}
+#prefijo {
+  display: inline-block;
+  border: 2px solid #999;
+  color: white;
+  padding: 5px;
+}
+
+#paises {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #666;
+  padding: 5px;
+}
+#paises img {
+  width: 40px;
+  display: inline-block;
+  height: 20px;
+}
+
+.banderas{
+height: 20%;
+width: 30%;
+
+}
+
+.back{
+	text-align: center;
+	color:purple;
+	height: 40%;
+	margin-left: 20%;
+	margin-top: 50%;
+	padding-right: 25%;
+ 	padding-top: 20%;
+ 	width: 40%;
+
 }
