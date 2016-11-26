@@ -63,6 +63,7 @@ height: 100vh;
 }
 
 #paises {
+  
   display: inline-block;
   color: white;
   font-weight: bold;
@@ -73,6 +74,7 @@ height: 100vh;
   width: 40px;
   display: inline-block;
   height: 20px;
+
 }
 
 .banderas{
@@ -90,5 +92,14 @@ width: 30%;
 	padding-right: 25%;
  	padding-top: 20%;
  	width: 40%;
+
+}
+
+.next{
+
+  background-color: #DF01D7;
+  color:white;
+  padding-right: 30%;
+  padding-left: 30%;
 
 }
