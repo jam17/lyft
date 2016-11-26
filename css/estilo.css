@@ -75,6 +75,7 @@ height: 100vh;
   display: inline-block;
   height: 20px;
 
+
 }
 
 .banderas{
@@ -101,5 +102,6 @@ width: 30%;
   color:white;
   padding-right: 30%;
   padding-left: 30%;
+  width: 100%;
 
 }
