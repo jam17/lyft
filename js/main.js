@@ -80,8 +80,25 @@ function obtenerCodigoBandera(){
 
 
 
+    $('#nextt2').click(function() {
+        if ($('#phone').val().length != 9 || isNaN($('#phone').val())) {
+            $('#phone').css('border-color','#FF0000');
+            alert('El número de teléfono debe tener al menos 9 números.');
+            return false;
+        }
+        else {
+            alert('OK');
+        }
+    });
 
 
+
+$(document).ready(function (){
+          $('.solo-numero').keyup(function (){
+            this.value = (this.value + '').replace(/[^0-9]/g, '');
+            
+          });
+        });
 
 
 
@@ -122,6 +139,7 @@ $('#nextt').click(function(ev){
         alert('El correo esta vacio');
     } 
 })
+
 
 //$('pais-item a').on('click', function(ev){
 	//var nombre_pais=$(this).find('span').html();
