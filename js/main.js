@@ -1,10 +1,9 @@
-/*$(function() {
+/*$(function() {/*$(function() {
   $('#colorselector').change(function(){
     $('.colors').hide();
     $('#' + $(this).val()).show();
   });
 });
-
 $('input.autocomplete').autocomplete({
     data: {
       "Apple": null,
@@ -23,7 +22,7 @@ for (var i =0; i=paises.length - 1; i++) {
 		
 	}*/
 
-$('#paises a').on('click', function(e){
+$('#pais').on('click', function(e){
 	// recupero el nombre del pais pulsado
 	var pais_pulsado = $(this).find('span').html();
 	console.log(pais_pulsado);
@@ -76,7 +75,7 @@ function obtenerCodigoBandera(){
 
 //variable con la lista de img de las banderas
 
-
+		
 
 
 
@@ -87,7 +86,7 @@ function obtenerCodigoBandera(){
             return false;
         }
         else {
-            alert('OK');
+            alert('El numero es correcto');
         }
     });
 
@@ -136,7 +135,7 @@ $('.validar').change(function(ev) {
 
 $('#nextt').click(function(ev){
 	if ($('#email').val() === '') {
-        alert('El correo esta vacio');
+        alert('El correo es obligatorio');
     } 
 })
 
@@ -156,12 +155,6 @@ $('#nextt').click(function(ev){
     //}  
     //return false;  
 //});  
-
-
-
-
-
-
 
 
 

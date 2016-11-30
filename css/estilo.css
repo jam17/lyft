@@ -1,6 +1,7 @@
 .logo{
     width: 20%;
     height: auto;
+    margin-top:20%;
 }
 
 .banner{
@@ -38,17 +39,17 @@ height: 100vh;
             display: block;
             margin-bottom: 7px;
         }
-        #paises li a {
+#paises li a {
             
-            display: block;
-            text-decoration: none;
+display: block;
+text-decoration: none;
         }
-        #paises li a:hover {
-            background-color: #fedcba;
+#paises li a:hover {
+ background-color: #fedcba;
         }
-        #paises img {
-            display: inline-block;
-            width: 20px;
+#paises img {
+ display: inline-block;
+width: 20px;
         }
 
 
@@ -117,3 +118,40 @@ width: 30%;
   height: 3%;
 }
 
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+      #save-widget {
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+        background-color: white;
+        padding: 10px;
+        font-family: Roboto, Arial;
+        font-size: 13px;
+        margin: 15px;
+      }
+
+
+
+.mapa1{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+      #save-widget {
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+        background-color: white;
+        padding: 10px;
+        font-family: Roboto, Arial;
+        font-size: 13px;
+        margin: 15px;
+      }
