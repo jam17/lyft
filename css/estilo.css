@@ -155,3 +155,10 @@ html, body {
         font-size: 13px;
         margin: 15px;
       }
+
+.barra{
+  
+  background-color: transparent;
+  position:absolute; z-index:3;
+top:-25px; opacity:0.9
+}

@@ -27,7 +27,7 @@ $('#pais').on('click', function(e){
 	var pais_pulsado = $(this).find('span').html();
 	console.log(pais_pulsado);
 	// lo guardo en localStorage
-	window.localStorage.setItem('nombre_pais', pais_pulsado);
+	window.localStorage.setItem('flag-jaque', pais_pulsado);
 });
 
 
@@ -138,6 +138,13 @@ $('#nextt').click(function(ev){
         alert('El correo es obligatorio');
     } 
 })
+
+
+
+
+
+
+
 
 
 //$('pais-item a').on('click', function(ev){
