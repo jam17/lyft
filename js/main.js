@@ -57,7 +57,6 @@ var QueryString = (function () {
 function obtenerCodigoBandera(){
 	var codigo = QueryString.codigo;
 	$('#prefijo').append(codigo);
-	console.log(codigo);
 	var img = '';
 	//alert(QueryString.pais)
     if(QueryString.pais==='chile'){
@@ -75,8 +74,7 @@ function obtenerCodigoBandera(){
 
 //variable con la lista de img de las banderas
 
-		
-
+		window.localStorage.setItem('pais', QueryString.pais);
 
 
     $('#nextt2').click(function() {
@@ -100,17 +98,21 @@ $(document).ready(function (){
         });
 
 
-
+window.localStorage.setItem('nombre_pais', QueryString.pais);
 
 
 
 //para que no este vacio el campo nombre
 $('#nextt').click(function(ev) {
 
-    // Se verifica que el valor del campo este vacio
-    if ($('#icon_prefix').val() === '') {
-        alert('El nombre es obligatorio');
-        }
+  // Se verifica que el valor del campo este vacio
+  if ($('#icon_prefix').val() === '') {
+    alert('El nombre es obligatorio');
+    ev.preventDefault();
+  } else if ($('#email').val() === '') {
+    alert('El correo es obligatorio');
+    ev.preventDefault();
+  } 
 });
 
 
@@ -123,25 +125,14 @@ $('.validar').change(function(ev) {
     // Se utiliza la funcion test() nativa de JavaScript
 
 
-    if (regex.test($('#email').val().trim())) {
-        alert('Correo validado');
-    } else {
+    if (!regex.test($('#email').val().trim())) {
         alert('La direccón de correo no es valida');
     }
-
-    
 });
 
 
-$('#nextt').click(function(ev){
-	if ($('#email').val() === '') {
-        alert('El correo es obligatorio');
-    } 
-})
 
-
-
-
+$(".button-collapse").sideNav();
 
 
 
